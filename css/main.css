@@ -9,9 +9,12 @@ body {
   background-color: #efefef;
   display: grid;
   /*create 3 columns one at 380px, another at 380px and the final at 400px*/
-  grid-template-columns: repeat(6, 180px);
+  grid-template-columns: 200px 400px;
+  /*grid-template-rows: 400px;*/
   /*could use auto to take a coulmn fluid*/
   /*Creating gutters essential*/
+grid-auto-flow: column;
+
   grid-gap: 20px;
 }
 
